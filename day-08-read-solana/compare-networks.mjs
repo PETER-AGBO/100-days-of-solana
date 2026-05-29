@@ -1,3 +1,4 @@
+
 import { createSolanaRpc, devnet, mainnet, address } from "@solana/kit";
 // Two separate RPC connections: one for devnet, one for mainnet
 const devnetRpc = createSolanaRpc(devnet("https://api.devnet.solana.com"));
