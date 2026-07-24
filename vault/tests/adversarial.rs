@@ -109,7 +109,7 @@ fn attacker_cannot_withdraw_with_wrong_authority() {
     assert_custom_error(svm.send_transaction(tx), 2006);
 }
 
-#[test]
+#[test] //
 fn substituted_account_is_rejected_by_seeds() {
     let (mut svm, _payer) = setup();
 
