@@ -25,7 +25,7 @@ pub mod leaky_vault {
     }
 }
 
-#[derive(Accounts)]
+#[derive(Accounts)]//
 pub struct Withdraw<'info> {
     /// CHECK: deserialized by hand below, with no owner check. This is the bug.
     pub config: UncheckedAccount<'info>,
